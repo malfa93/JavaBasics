@@ -16,8 +16,8 @@ public class DogTester {
 		dog2.sleep();
 		
 		
-		System.out.println(dog2.noOfLegs);
-		
+		System.out.println(dog2.noOfLegs);// static variables can be accessed using different objects, ie, dog and dog2.
+		System.out.println(dog2.name);
 
 	}
 
